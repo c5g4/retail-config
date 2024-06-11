@@ -1092,7 +1092,7 @@ metadata:
     app.kuberneres.io/owner: retail-store-sample
     app.kubernetes.io/managed-by: Helm
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }}
   strategy:
     rollingUpdate:
       maxUnavailable: 1

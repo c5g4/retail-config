@@ -8,7 +8,7 @@ image:
   repository: 255945442255.dkr.ecr.us-east-1.amazonaws.com/retail-store-app-ui
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 4ff3399426918992536277d7f9cc446e36cf73a4
+  tag: f9cb3775961247dee102e9187536dd61cf5a5ba4
 
 
 imagePullSecrets: []
